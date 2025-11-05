@@ -24,7 +24,7 @@ Write-Host "Get testnet BNB from: https://testnet.bnbchain.org/faucet-smart" -Fo
 # Deploy
 forge script script/Deploy.s.sol:DeployScript `
     --rpc-url $BSC_TESTNET_RPC `
-    --private-key "0x0f556f4cbbd1805c1d099d7f135c3eca930e38a69f0d751b3cb7938ab43b6e0b" `
+    --private-key "" `
     --broadcast `
     --chain-id 97 `
     --verify `
