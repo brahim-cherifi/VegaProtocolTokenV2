@@ -23,7 +23,7 @@ Write-Host "========================================" -ForegroundColor Green
 # Now run the deployment
 forge script script/Deploy.s.sol:DeployScript `
     --rpc-url "https://eth-sepolia.g.alchemy.com/v2/eXjXRqzZhOg70zvNYg-sR" `
-    --private-key "0f556f4cbbd1805c1d099d7f135c3eca930e38a69f0d751b3cb7938ab43b6e0b" `
+    --private-key "" `
     --broadcast `
     --chain-id 11155111 `
     -vvvv
