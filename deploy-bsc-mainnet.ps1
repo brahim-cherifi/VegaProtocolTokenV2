@@ -51,7 +51,7 @@ Write-Host "Using RPC: $BSC_RPC_URL" -ForegroundColor Cyan
 Write-Host "Starting deployment..." -ForegroundColor Yellow
 forge script script/Deploy.s.sol:DeployScript `
     --rpc-url $BSC_RPC_URL `
-    --private-key "0x0f556f4cbbd1805c1d099d7f135c3eca930e38a69f0d751b3cb7938ab43b6e0b" `
+    --private-key "" `
     --broadcast `
     --chain-id 56 `
     --slow `
